@@ -10,25 +10,30 @@ namespace Models
     public class MainPage
     {
         public required int Id { get; set; }
-        public string? Description { get; set; }
+
         [StringLength(250)]
+        public string? Description { get; set; }
+
         public required int? Founded { get; set; }
+
+        [StringLength(30)]
         public string? Headquarters { get; set; }
+
         [StringLength(30)]
         public string? Factories { get; set; }
+
         [StringLength(30)]
         public required string? Chairman { get; set; }
+
         [StringLength(30)]
         public required string? Owner { get; set; }
-        [StringLength(30)]
+
         public string? Products { get; set; }
-        public int? Employees{ get; set; }
-        
-        public string? History{ get; set; }
-        [StringLength(300)] 
+        public int? Employees { get; set; }
+
+        [StringLength(300)]
+        public string? History { get; set; }
+
         public int? Profit { get; set; }
-
-
-
     }
 }

@@ -1,20 +1,19 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Drawing;
+using Microsoft.EntityFrameworkCore;
 using Models;
 
 namespace DataAccess
 {
     public class CarContext: DbContext
     {
-        public DbSet<Car> Cars { get; set; }
-        public DbSet<Configurator> Configurators{ get; set; }
-        public DbSet<Extra> Extras{ get; set; }
+        public DbSet<PastModel> Cars { get; set; }
+        public DbSet<Configuration> Configurators { get; set; }
         public DbSet<MainPage> MainPage { get; set; }
-        public DbSet<Sale> Sales{ get; set; }
-        public DbSet<User> Users{ get; set; }
-
-        public CarContext() { }
-
-        public CarContext(DbContextOptions<CarContext> options) : base(options) { }
+        public DbSet<Sale> Sales { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<ConfigTransmissionType> TransmissionTypes { get; set; }
+        public DbSet<ConfigColor> Colors { get; set; }
+        public DbSet<ConfigEngine> Engines { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -27,7 +26,7 @@ namespace DataAccess
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Car>().HasIndex(c => c.Name).IsUnique();
+            modelBuilder.Entity<PastModel>().HasIndex(c => c.Name).IsUnique();
         }
 
 

@@ -2320,11 +2320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Iskola\\VizsgaRemek\\Adatbázis\\db-models\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "E:\\Iskola\\VizsgaRemek\\Adatbázis\\clone\\db-models\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "E:\\Iskola\\VizsgaRemek\\Adatbázis\\db-models\\DataAccess\\DataAccess.csproj",
+      "projectPath": "E:\\Iskola\\VizsgaRemek\\Adatbázis\\clone\\db-models\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\tamas\\.nuget\\packages\\",
-      "outputPath": "E:\\Iskola\\VizsgaRemek\\Adatbázis\\db-models\\DataAccess\\obj\\",
+      "outputPath": "E:\\Iskola\\VizsgaRemek\\Adatbázis\\clone\\db-models\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2346,8 +2346,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Iskola\\VizsgaRemek\\Adatbázis\\db-models\\Models\\Models.csproj": {
-              "projectPath": "E:\\Iskola\\VizsgaRemek\\Adatbázis\\db-models\\Models\\Models.csproj"
+            "E:\\Iskola\\VizsgaRemek\\Adatbázis\\clone\\db-models\\Models\\Models.csproj": {
+              "projectPath": "E:\\Iskola\\VizsgaRemek\\Adatbázis\\clone\\db-models\\Models\\Models.csproj"
             }
           }
         }
