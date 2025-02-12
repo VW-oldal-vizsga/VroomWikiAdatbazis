@@ -10,7 +10,7 @@ namespace Models
     {
         public required int Id { get; set; }
         public required int? Year { get; set; }
-        public required int? TotalSale { get; set; }
-        public required int? TotalIncome { get; set; }
+        public required float? TotalSale { get; set; }
+        public required float? TotalIncome { get; set; }
     }
 }
